@@ -1,0 +1,99 @@
+/* GoogleSearchScreen.css */
+
+/* Container for the entire Google Search screen */
+.google-search-container {
+   
+    margin: 0 auto;
+    padding: 20px;
+    width: 90vh;
+    height: 40vh;
+     border-radius: 10px;
+    background-color: #b8b1b1;
+    transform: translateX(-3%);
+  }
+  
+  /* Search bar section */
+  .google-search-bar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Google logo */
+  .google-logo {
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  /* Input container for search query */
+  .search-input-container {
+    flex-grow: 1;
+    display: flex;
+  }
+  
+  /* Search input field */
+  .search-input {
+    flex-grow: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Search button */
+  .search-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4285f4;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Container for search results */
+  .search-results-container {
+    margin-top: 20px;
+  }
+  
+  /* List of search results */
+  .search-results-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Individual search result item */
+  .search-result-item {
+    margin-bottom: 20px;
+  }
+  
+  /* Link to search result URL */
+  .result-link {
+    text-decoration: none;
+    color: #1a0dab;
+  }
+  
+  /* Title of search result */
+  .result-title {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  /* URL of search result */
+  .result-url {
+    color: #006621;
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+  
+  /* Snippet of search result */
+  .result-snippet {
+    font-size: 14px;
+  }
+  
+  /* Message when no results are found */
+  .no-results-message {
+    font-size: 16px;
+    color: #757575;
+  }
+  

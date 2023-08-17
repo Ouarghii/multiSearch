@@ -1,0 +1,31 @@
+.youtube-search-container {
+    position: relative;
+    height: 100%;
+  }
+  
+  .top-left {
+    position: relative;
+    width: 50%;
+    height: 50%;
+  }
+  
+  .search-results-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: scroll;
+    max-height: 70vh; /* Adjust the height as desired */
+  }
+  
+  /* ... Other CSS styles ... */
+  
+  /* Styles for the Modal */
+  .modal-content {
+    width: 40%;
+    height: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
